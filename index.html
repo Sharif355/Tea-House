@@ -46,7 +46,7 @@
       <div class="hero ">
         <div class="hero-content flex-col lg:flex-row">
           <div>
-            <h1 class="text-7xl font-extrabold text-[#1C1C1C] ">It's good <br>
+            <h1 class=" text-4xl lg:text-7xl font-extrabold text-[#1C1C1C] ">It's good <br>
                 tea time at The <br> Tea House</h1>
             <p class="py-6 text-lg font-medium text-[#777] ">
                 Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.
@@ -56,8 +56,8 @@
 
          <div>
             <img
-            src="/images//banner.png"
-            class="max-w-xl "
+            src="/images//banner.png" alt="banner"
+            class="max-w-xs md:max-w-lg lg:max-w-xl "
           />
           <!--Ratings Badge-->
           <div class=" -mt-24 ml-12 flex items-center gap-3 drop-shadow-lg bg-white p-5 w-60 rounded-lg">
@@ -74,13 +74,69 @@
 
     <main class="container  mx-auto">
        <!--Featured Section-->
-      <section class="text-center">
+      <section class="text-center my-28">
            
-        <h2 class="text-5xl font-extrabold text-[#1C1C1C]">Our Featured Products</h2>
-        <p class="text-base font-medium text-[#777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable. </p>
+        <h2 class="text-5xl font-extrabold text-[#1C1C1C] mb-5">Our Featured Products</h2>
+        <p class="text-base font-medium lg:max-w-4xl mx-auto text-[#777] pb-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable. </p>
+         
+        <!--Featured Tea Card Container-->
+        <!--First Card-->
+        <div class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-6 ">
+           
+            <div class="card  rounded-lg bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl ">
+                <div class="p-7">
+                    <figure><img src="/images//tea-1.png" alt="Shoes" /></figure>
+                  <h2 class="text-2xl font-extrabold text-[#1C1C1C] mt-7 pb-2">Milk Tea</h2>
+                  <p class="text-base font-semibold text-[#777] ">Creamer could be replaced  <br> by fresh milk</p>
+                </div>
+              </div> 
+              <!--Second Card-->
+              <div class="card  rounded-lg bg-gray-50 shadow-xl ">
+                <div class="p-7">
+                    <figure><img src="/images//tea-2.png" alt="Shoes" /></figure>
+                  <h2 class="text-2xl font-extrabold text-[#1C1C1C mt-7 pb-2">Black Tea</h2>
+                  <p class="text-base font-semibold text-[#777] ">Creamer could be replaced  <br> by fresh milk</p>
+                </div>
+              </div>
+              <!--Third Card-->
+              <div class="card  rounded-lg bg-gray-50 shadow-xl ">
+                <div class="p-7">
+                    <figure><img src="/images//tea-3.png" alt="Shoes" /></figure>
+                  <h2 class="text-2xl font-extrabold text-[#1C1C1C] mt-7 pb-2">Chocolate Tea</h2>
+                  <p class="text-base font-semibold text-[#777] ">Creamer could be replaced  <br> by fresh milk</p>
+                </div>
+              </div>
+                <!--Fourth Card-->
+              <div class="card  rounded-lg bg-gray-50 shadow-xl ">
+                <div class="p-7">
+                    <figure><img src="/images//tea-4.png" alt="Shoes" /></figure>
+                  <h2 class="text-2xl font-extrabold text-[#1C1C1C] mt-7 pb-2">Green Tea</h2>
+                  <p class="text-base font-semibold text-[#777] ">Creamer could be replaced  <br> by fresh milk</p>
+                </div>  
+              </div>
+        </div> 
+    </section>
 
-      </section>
-
+     <!--Great Tea Fresh Tea Section-->
+     <section class="my-24 items-center text-center lg:text-left flex flex-col  lg:flex-row gap-14 justify-center ">
+        
+        <div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                    <div class="rounded-lg w-60 h-32 bg-gradient-to-r from-[#F00] to-[#FF8938] opacity-10"></div>
+                  <div class="row-span-3 p-11 bg-[#f1e8d6]"><img  src="/images//fresh-1.png" /></div>
+                 <div class="row-span-3 bg-[#eff5e9] p-11 "> <img  src="/images//fresh-2.png" /></div>
+                  <div class="rounded-lg w-60 h-32 bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF]"></div>
+                </div>
+        </div>
+            <div>
+                <h1 class="text-5xl font-bold">Great Tea, Freshly <br>Presented</h1>
+                <p class="py-6 max-w-xl text-base font-medium text-[#777]">The meaning of gong cha is chinese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its customers  because of good words of mouth and unique customized service originated from Taiwan.</p>
+                <h4 class="text-xl font-extrabold pb-2">Unique Taste</h4>
+                <p class=" max-w-xl text-base font-medium text-[#777] pb-5">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+                <h4 class="text-xl font-extrabold pb-2">Premium Quality</h4>
+                <p class=" max-w-xl text-base font-medium text-[#777]">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+              </div>
+     </section>
 
     </main>
 
